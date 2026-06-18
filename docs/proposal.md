@@ -7,7 +7,7 @@ Author: Anushka Singhania
 
 ## Abstract
 
-Surface-crack inspection of civil infrastructure — pavement, bridges, tunnels,
+Surface-crack inspection of civil infrastructure pavement, bridges, tunnels,
 masonry is a high-value computer-vision problem that remains hard for three
 structural reasons: cracks are *thin* (often 1–3 px wide), *elongated and
 branching*, and *severely class-imbalanced* against textured backgrounds; labels
