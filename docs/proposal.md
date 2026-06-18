@@ -8,7 +8,7 @@ Author: Anushka Singhania
 ## Abstract
 
 Surface-crack inspection of civil infrastructure — pavement, bridges, tunnels,
-masonry — is a high-value computer-vision problem that remains hard for three
+masonry is a high-value computer-vision problem that remains hard for three
 structural reasons: cracks are *thin* (often 1–3 px wide), *elongated and
 branching*, and *severely class-imbalanced* against textured backgrounds; labels
 are *scarce and domain-shifted* across datasets; and practitioners need
@@ -72,7 +72,7 @@ cracks largely rely on naive prompts or full fine-tuning.
 
 **Parameter-efficient adaptation.** LoRA [Hu 2022] adapts large frozen models by
 training low-rank updates, drastically reducing trainable parameters and
-overfitting on small datasets — directly relevant to the crack data regime.
+overfitting on small datasets directly relevant to the crack data regime.
 
 **Thin-structure evaluation.** Exact pixel overlap is too strict for structures a
 few pixels wide; the edge/contour literature uses tolerance-based matching and
